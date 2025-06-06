@@ -13,54 +13,96 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\menu">
+      <UniqueIdentifier>{de8ab522-ffc6-4e81-b67a-ef00f7499edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{dd6fea5d-3c0d-4885-b703-0394d11490f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{de528d7e-e0e5-4f8a-9339-3f013e368a7e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="phong.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="menu_phong.c">
+      <Filter>Source Files\menu</Filter>
     </ClCompile>
-    <ClCompile Include="khachhang.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="menu_hoadon.c">
+      <Filter>Source Files\menu</Filter>
     </ClCompile>
-    <ClCompile Include="hoadon.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="menu_caidat.c">
+      <Filter>Source Files\menu</Filter>
     </ClCompile>
-    <ClCompile Include="hanghoa.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="menu_thongke.c">
+      <Filter>Source Files\menu</Filter>
     </ClCompile>
-    <ClCompile Include="taofile.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="menu_hanghoa.c">
+      <Filter>Source Files\menu</Filter>
     </ClCompile>
-    <ClCompile Include="thongke.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="menu_khachhang.c">
+      <Filter>Source Files\menu</Filter>
     </ClCompile>
     <ClCompile Include="cthoadon.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="hanghoa.c">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="hoadon.c">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="khachhang.c">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="phong.c">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="taofile.c">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="thongke.c">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_utils.c">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_hoadon_helper.c">
+      <Filter>Source Files\modules</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="phong.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="hoadon.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="cthoadon.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
     <ClInclude Include="hanghoa.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="hoadon.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
     <ClInclude Include="khachhang.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\include</Filter>
     </ClInclude>
-    <ClInclude Include="thongke.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="phong.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
     <ClInclude Include="taofile.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\include</Filter>
     </ClInclude>
-    <ClInclude Include="cthoadon.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="thongke.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_utils.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_hoadon_helper.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_all.h">
+      <Filter>Source Files\menu</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

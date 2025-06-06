@@ -24,6 +24,14 @@
     <ClCompile Include="hoadon.c" />
     <ClCompile Include="khachhang.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="menu_caidat.c" />
+    <ClCompile Include="menu_hanghoa.c" />
+    <ClCompile Include="menu_hoadon.c" />
+    <ClCompile Include="menu_hoadon_helper.c" />
+    <ClCompile Include="menu_khachhang.c" />
+    <ClCompile Include="menu_phong.c" />
+    <ClCompile Include="menu_thongke.c" />
+    <ClCompile Include="menu_utils.c" />
     <ClCompile Include="phong.c" />
     <ClCompile Include="taofile.c" />
     <ClCompile Include="thongke.c" />
@@ -33,6 +41,9 @@
     <ClInclude Include="hanghoa.h" />
     <ClInclude Include="hoadon.h" />
     <ClInclude Include="khachhang.h" />
+    <ClInclude Include="menu_all.h" />
+    <ClInclude Include="menu_hoadon_helper.h" />
+    <ClInclude Include="menu_utils.h" />
     <ClInclude Include="phong.h" />
     <ClInclude Include="taofile.h" />
     <ClInclude Include="thongke.h" />
